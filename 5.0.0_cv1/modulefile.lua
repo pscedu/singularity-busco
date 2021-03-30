@@ -31,7 +31,7 @@ To unload the module, type
 
 Documentation
 -------------
-https://www.brow.sh/
+https://busco.ezlab.org/
 
 For help, type
 
