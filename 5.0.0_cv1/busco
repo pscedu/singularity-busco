@@ -6,7 +6,7 @@ fi
 
 VERSION=5.0.0_cv1
 PACKAGE=busco
-TOOL=browsh
+TOOL=$PACKAGE
 DIRECTORY=$(dirname $0)
 
 PERSISTENT_FILE_STORAGE=/ocean
