@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-busco)
 
 # singularity-busco
-Singularity recipe for [busco](https://busco.ezlab.org/).
+Singularity recipe for [busco](https://busco.ezlab.org).
 
 ## Building the image using the recipe
 
