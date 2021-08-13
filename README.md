@@ -7,6 +7,16 @@
 # singularity-busco
 Singularity recipe for [busco](https://busco.ezlab.org/).
 
+## Installing the container on Bridges 2
+Copy the
+
+* `SIF` file
+* and the `busco` script
+
+to `/opt/packages/busco/5.0.0`.
+
+Copy the file `modulefile.lua` to `/opt/modulefiles/busco` as `5.0.0.lua`.
+
 ## Building the image using the recipe
 
 ### To build the image locally
