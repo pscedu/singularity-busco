@@ -13,11 +13,6 @@ whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: Based on evolutionarily-informed expectations of gene content of near-universal single-copy orthologs, BUSCO metric is complementary to technical metrics like N50.")
 
 help([[
-busco 5.0.0
------------
-
-Description
------------
 Based on evolutionarily-informed expectations of gene content of near-universal single-copy orthologs, BUSCO metric
 is complementary to technical metrics like N50.
 
@@ -31,20 +26,12 @@ To unload the module, type
 
 Documentation
 -------------
-https://busco.ezlab.org/
-
-For help, type
-
-> busco
-
-Repository
-----------
 Tools included in this module are
 
 * busco
 ]])
 
 local package = "busco"
-local version = "5.0.0_cv1"
+local version = "5.0.0"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)

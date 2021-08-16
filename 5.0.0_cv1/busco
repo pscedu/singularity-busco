@@ -1,10 +1,6 @@
 #!/bin/bash
 
-if [ ! $(command -v singularity) ]; then
-	module load singularity
-fi
-
-VERSION=5.0.0_cv1
+VERSION=5.0.0
 PACKAGE=busco
 TOOL=$PACKAGE
 DIRECTORY=$(dirname $0)
