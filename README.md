@@ -8,7 +8,7 @@
 # singularity-busco
 <img src="https://busco.ezlab.org/home/busco.png" width="40%">
 
-Singularity recipe for [busco](https://busco.ezlab.org/).
+Singularity recipe for [busco](https://busco.ezlab.org).
 
 ## Installing the container on Bridges 2
 Copy the
