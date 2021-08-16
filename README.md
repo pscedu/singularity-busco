@@ -1,11 +1,24 @@
 ![Status](https://github.com/pscedu/singularity-busco/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-busco/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/pscedu/singularity-busco)
 ![forks](https://img.shields.io/github/forks/pscedu/singularity-busco)
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-busco)
 ![License](https://img.shields.io/github/license/pscedu/singularity-busco)
 
 # singularity-busco
+<img src="https://busco.ezlab.org/home/busco.png" width="40%">
+
 Singularity recipe for [busco](https://busco.ezlab.org).
+
+## Installing the container on Bridges 2
+Copy the
+
+* `SIF` file
+* and the `busco` script
+
+to `/opt/packages/busco/5.0.0`.
+
+Copy the file `modulefile.lua` to `/opt/modulefiles/busco` as `5.0.0.lua`.
 
 ## Building the image using the recipe
 
